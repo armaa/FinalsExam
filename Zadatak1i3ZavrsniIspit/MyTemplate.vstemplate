@@ -1,0 +1,50 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>KravaDoo</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>KravaDoo</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="KravaDoo.csproj" File="KravaDoo.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.cs">Form2.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.Designer.cs">Form2.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.resx">Form2.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KravadooDataSet.xsd">KravadooDataSet.xsd</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KravadooDataSet.Designer.cs">KravadooDataSet.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="KravadooDataSet.xsc">KravadooDataSet.xsc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="KravadooDataSet.xss">KravadooDataSet.xss</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="KravaModel.edmx">KravaModel.edmx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KravaModel.Context.tt">KravaModel.Context.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KravaModel.Context.cs">KravaModel.Context.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KravaModel.Designer.cs">KravaModel.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="KravaModel.edmx.diagram">KravaModel.edmx.diagram</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KravaModel.tt">KravaModel.tt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Krava.cs">Krava.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KravaModel.cs">KravaModel.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Pasmina.cs">Pasmina.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ProizvodnjaMlijeka.cs">ProizvodnjaMlijeka.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
